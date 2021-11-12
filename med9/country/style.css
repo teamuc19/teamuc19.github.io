@@ -1,0 +1,36 @@
+h1{
+	
+	
+
+
+}
+h2{
+	;
+	margin: 20px;
+}
+
+img{
+	height: 200px;
+	float: right;
+	width: 200px;
+	margin: 40px;
+	
+
+
+}
+
+.red {
+	background-color: red;
+
+}
+.white {
+	background-color: white;
+
+}
+.green {
+	background-color: green;
+}
+
+div{
+	height: 100px;
+}
