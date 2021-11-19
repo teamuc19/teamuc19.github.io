@@ -1,0 +1,26 @@
+h1 {
+	color: red;
+}
+
+p {
+	text-align: 30px;
+	margin: 20px;
+    padding: 25px;
+
+}
+
+h2 {
+	color: black;
+	background-color: lightpink;
+	text-decoration: underline;
+	font-size: 30px;
+}
+
+img {
+	float: right;
+	font-size: 30px;
+	border: 10px dotted pink;
+	width: 250px;
+	height: 200px;
+	margin: 20px;
+}
