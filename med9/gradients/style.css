@@ -1,0 +1,30 @@
+h1 {
+	color: white;
+	padding: 30px;
+	background: rgb(14,11,70);
+background: linear-gradient(264deg, rgba(14,11,70,1) 6%, rgba(73,173,208,1) 93%);
+}
+
+body {
+	min-height: 90vh;
+	background: rgb(14,11,70);
+background: linear-gradient(239deg, rgba(14,11,70,1) 6%, rgba(23,35,91,1) 19%, rgba(32,61,113,1) 33%, rgba(36,72,122,1) 39%, rgba(45,98,144,1) 53%, rgba(57,132,173,1) 71%, rgba(65,152,190,1) 82%, rgba(73,173,208,1) 93%);
+
+}
+h2 {
+	color: white;
+	padding: 30px;
+background: rgb(14,11,70);
+background: linear-gradient(4deg, rgba(14,11,70,1) 6%, rgba(23,35,91,1) 19%, rgba(36,72,122,1) 39%, rgba(65,152,190,1) 82%, rgba(73,173,208,1) 93%);
+}
+
+h3 {
+	color: white;
+	padding: 30px;
+background: rgb(14,11,70);
+background: radial-gradient(circle, rgba(14,11,70,1) 6%, rgba(65,152,190,1) 82%, rgba(73,173,208,1) 93%);
+}
+
+h4{
+	
+}
