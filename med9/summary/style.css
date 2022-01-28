@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Dongle&family=Indie+Flower&family=Luxurious+Roman&display=swap');
+h1 {
+	color: white;
+	background-color: lightblue;
+	padding: 50px;
+	margin: 30px;
+	border: 10px darkblue;
+	text-align: center;
+	letter-spacing: 0.5em;
+	font-family: "Luxurious Roman";
+	font-size: 40px;
+	background: linear-gradient(264deg, rgba(14,11,70,1) 6%, rgba(73,173,208,1) 93%);
+
+}
+
+h2{
+	color: white;
+	background-color: lightgrey;
+	padding: 50px;
+	margin: 30px;
+	border: 10px darkgray;
+	text-align: center;
+	letter-spacing: 0.5em;
+	font-family: "Indie Flower";
+	font-size: 30px;
+	background: rgb(14,11,70);
+background: radial-gradient(circle, rgba(14,11,70,1) 6%, rgba(65,152,190,1) 82%, rgba(73,173,208,1) 93%);
+
+}
+
+h3{
+	color: white;
+	background-color: lightgreen;
+	padding: 50px;
+	margin: 30px;
+	border: 10px darkgreen;
+	text-align: center;
+	letter-spacing: 0.5em;
+	font-family: "Dongle";
+	font-size: 30px;
+	background: rgb(14,11,70);
+background: radial-gradient(circle, rgba(14,11,70,1) 6%, rgba(65,152,190,1) 82%, rgba(73,173,208,1) 93%);
+
+}
+
+p{
+
+	color: black;
+	background-color: lightslategray;
+	padding: 40px;
+	margin: 30px;
+	font-size: 30px;
+}
+
+img {
+	height: 500px;
+	float: right;
+	margin: 40px;
+
+}
+
+ol {
+
+	font-size: 30px;
+	color: darkblue;
+	padding: 20px;
+	margin: 20px;
+	text-align: right;
+}
+
+ul {
+    font-size: 30px;
+	color: darkgreen;
+	padding: 20px;
+	margin: 20px;
+	text-align: left;
+
+
+}
+
+body {
+	background-color: lightsalmon;
+}
+
