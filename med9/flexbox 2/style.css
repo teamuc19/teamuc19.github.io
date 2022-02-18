@@ -1,0 +1,87 @@
+ @import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Dongle&family=Indie+Flower&family=Luxurious+Roman&family=Zilla+Slab:ital,wght@1,300&display=swap');
+ body{
+ 	background: rgb(164,135,210);
+background: radial-gradient(circle, rgba(164,135,210,1) 14%, rgba(104,197,203,1) 92%);
+ }
+
+
+
+h1 {
+	text-align: center;
+	font-family: 'Luxurious Roman', cursive;
+	font-size: 50px;
+
+}
+
+ img{
+height: 250px;
+margin: 10px;
+}
+
+.A {
+height: 400px;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+background: rgb(164,135,210);
+background: radial-gradient(circle, rgba(164,135,210,1) 14%, rgba(104,104,203,0.835171568627451) 92%);
+}
+
+.B {
+
+height: 400px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+background: rgb(164,135,210);
+background: radial-gradient(circle, rgba(164,135,210,1) 14%, rgba(104,171,203,0.835171568627451) 92%);
+}
+
+
+.C {
+background: rgb(164,135,210);
+background: radial-gradient(circle, rgba(164,135,210,1) 14%, rgba(150,104,203,0.9213483146067416) 92%);
+height: 400px;
+display: flex;
+justify-content:space-between;
+align-items: center;
+}
+
+
+.D {
+
+background: rgb(164,135,210);
+background: radial-gradient(circle, rgba(164,135,210,1) 14%, rgba(104,203,155,0.9213483146067416) 92%);
+height: 400px;
+display: flex;
+justify-content:flex-end ;
+align-items: flex-start;
+
+}
+
+.E {
+background: rgb(123,73,203);
+background: radial-gradient(circle, rgba(123,73,203,1) 29%, rgba(24,55,176,1) 64%, rgba(104,203,155,0.9213483146067416) 92%);
+height: 400px;
+display: flex;
+justify-content: space-around;
+align-items: flex-end;
+}
+
+.F {
+background: rgb(123,73,203);
+background: radial-gradient(circle, rgba(123,73,203,1) 29%, rgba(138,77,173,1) 64%, rgba(104,203,155,0.9213483146067416) 92%);
+height: 400px;
+display: flex;
+justify-content: flex-end;
+align-items: stretch;
+}
+
+.G {
+background: rgb(123,73,203);
+background: radial-gradient(circle, rgba(123,73,203,1) 29%, rgba(138,77,173,1) 64%, rgba(104,166,203,0.9213483146067416) 92%);
+height: 400px;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+}
