@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Cormorant+Garamond:ital@1&family=Dongle&family=IBM+Plex+Serif:ital,wght@0,400;1,200&family=Indie+Flower&family=Luxurious+Roman&family=Zilla+Slab:ital,wght@1,300&display=swap');body {
+	margin: 0;
+}
+
+header {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("foto.sky.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+header h1{
+	padding: 30px;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 20px;
+	color: darkblue;
+	font-family: IBM Plex Serif;
+
+}
+
+main {
+	padding: 100px;
+	background: background: rgb(227,182,122);
+	background: linear-gradient(241deg, rgba(227,182,122,1) 80%, rgba(0,0,0,1) 100%);;
+
+}
+main p {
+	column-count: 2;
+
+}
+.hobby {
+	height: 300px;
+	padding: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: background: rgb(0,0,0);
+background: linear-gradient(230deg, rgba(0,0,0,1) 1%, rgba(67,95,133,1) 13%);;
+}
+.hobby h2 {
+	font-size: 30px;
+	font-family: IBM Plex Serif;
+}
+.hobby p {
+	font-size: 30px;
+	font-family: IBM Plex Serif;
+}
+
+
+
+footer {
+	height: 400px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-image: url("foto.sky2.PNG");
+	background-size: cover;
+	background-position: center;
+	align-items: center;
+
+}
+
+footer p {
+	padding: 30px;
+	background-color: rgba(193,151,209, 0.6);
+	border-radius: 20px;
+	color: black;
+
+}
