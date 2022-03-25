@@ -62,7 +62,6 @@ header {
 	justify-content: center;
 	align-items: center;
 	height: 400px;
-	background-image: url("header-background1.jpg");
 	background-position: center;
 	background-size: cover;
 }
@@ -86,6 +85,23 @@ section h2 {
 display: inline-block;
 }
 
+#feiertage {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+section .left {
+    width: 60%;
+    background-color: white;
+}
+
+section .right {
+	width: 40%;
+	background-color: lightblue;
+	border: 8px double darkblue;
+}
+
 /*Footer*/
 footer {
 	height: 400px;
@@ -100,4 +116,30 @@ background: linear-gradient(230deg, rgba(53,196,217,1) 39%, rgba(11,83,149,1) 86
 footer p {
 	background-color: 255, 255,255,0.7;
 	padding: 10px;
+}
+
+
+/*********************** Page Styling ***********************/
+
+/* Home */
+#home header {
+	background-image: url(header-background1.jpg);
+}
+
+#home main {
+	background-color: lightsteelblue;
+	padding: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#home main img {
+	width: 250px;
+	border:  4 px double darkblue;
+}
+
+/* Cantact */
+#contact header {
+	background-image: url(header-background-contact.jpg);
 }
