@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Cormorant+Garamond:ital@1&family=Dancing+Script&family=Dongle&family=IBM+Plex+Serif:ital,wght@0,400;1,200&family=Indie+Flower&family=Luxurious+Roman&family=Patrick+Hand&family=Raleway:wght@200&family=Ramaraja&family=Roboto+Slab:wght@300&family=Zilla+Slab:ital,wght@0,400;1,300&display=swap');body {
+	margin: 0px;
+}
+
+body {
+	margin: 0px;
+}
+
+nav {
+background: rgb(134,230,244);
+background: linear-gradient(230deg, rgba(134,230,244,1) 39%, rgba(85,167,242,1) 72%);
+	display: flex;
+	justify-content: space-between; /*To make space between logo und links*/
+	align-content: center;
+	padding: 30px;
+	position: fixed;
+	width: calc(100% - 60px);
+	left: 0px;
+	top: 0px;
+}
+
+
+nav img {
+	width: 150px;
+	border-radius: 50%;
+	
+}
+
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none; /* To remove the bullet points of our list*/
+
+}
+
+nav ul li a {
+	margin: 15px;
+	padding: 20px;
+	background-color:lightsteelblue;
+	text-decoration: none;
+	color: white;
+	border-radius: 20px;
+	font-family: Patrick Hand;
+	font-size: 30px;
+}
+
+nav ul li a:hover {
+	background-color: green;
+	color: black;
+}
+/*Main*/
+main {
+	padding: 100px;
+	margin-top: 120px;
+	color: white;
+}
+
+main h1 {
+	font-size: 50px;
+	text-align: center;
+
+}
+
+p {
+	line-height: 1.5;
+	column-count: 2;
+	font-size: 20px;
+}
+
+/* Background Div */
+#background {
+	width: 100vw;
+	height: 100vh;
+	background-image: url(background1.jpg);
+	background-position: center;
+	background-size: cover;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: -10;
+
+
+}
