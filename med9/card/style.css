@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Cormorant+Garamond:ital@1&family=Dancing+Script&family=Dongle&family=IBM+Plex+Serif:ital,wght@0,400;1,200&family=Indie+Flower&family=Luxurious+Roman&family=Patrick+Hand&family=Raleway:wght@200&family=Ramaraja&family=Roboto+Mono:wght@300&family=Roboto+Slab:wght@300&family=Roboto:wght@300&family=Zilla+Slab:ital,wght@0,400;1,300&display=swap');body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: lightblue;
+	font-family: "Roboto";
+}
+
+article {
+	position: relative;
+
+}
+
+article .image {
+	height: 200px;
+	width: 300px;
+	background-image: url("blume.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 30px;
+}
+
+
+article .text {
+	height: 200px;
+	width: 300px;
+	background-color: white;
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+
+article .text .mini-header {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+article .text .mini-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: darkgrey;
+	font-size: 12px;
+	width: 100%;
+
+}
+
+.box {
+	background-color: red;
+	color: white;
+	padding: 7px;
+	text-transform: uppercase;
+	position: absolute;
+	top: 230px;
+	left: 0px;
+	font-size: 13px;
+}
