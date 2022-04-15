@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Cormorant+Garamond:ital@1&family=Dancing+Script&family=Dongle&family=IBM+Plex+Serif:ital,wght@0,400;1,200&family=Indie+Flower&family=Lato:ital,wght@0,400;0,700;1,400&family=Luxurious+Roman&family=Patrick+Hand&family=Raleway:wght@200&family=Ramaraja&family=Roboto+Mono:wght@300&family=Roboto+Serif:wght@500&family=Roboto+Slab:wght@300&family=Roboto:wght@300&family=Zilla+Slab:ital,wght@0,400;1,300&display=swap');
+body{
+margin: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-color: lightgray;
+}
+article .image {
+height: 200px;
+width: 300px;
+background-image: url(tirana.jpg);
+background-size: cover;
+background-position: center;
+padding: 29px;
+}
+article .text {
+height: 200px;
+width: 300px;
+background-color: white;
+padding: 29px;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+flex-direction: column;
+background: rgb(4,44,217);
+background: linear-gradient(302deg, rgba(4,44,217,1) 0%, rgba(50,191,212,1) 86%);
+}
+article {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+article .text h1 {
+background-color: darkblue;
+color: white;
+padding: 12px;
+position: absolute;
+left:250px ;
+top: 60px;
+z-index: 100;
+font-family: "Lato";
+}
+article .text h2 {
+background-color: white;
+padding: 14px;
+text-transform: uppercase;
+color: darkblue;
+font-size: 40px;
+position: absolute;
+left:470px ;
+top: 90px;
+font-family: "Lato";
+
+
+
+}
