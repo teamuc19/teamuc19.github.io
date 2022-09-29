@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Progressing</title>
+    <style>
+        
+    body {
+    background-color: forestgreen;
+    margin-top: 100px;
+    margin-left: 50px;
+        }
+
+
+
+.bar {
+    height: 10px;
+    width: 250px;
+    border-radius: 15px;
+    border: 10px solid orange;
+    
+    }
+
+ .filling {
+    height: 10px;
+    width: 250px;
+    background-color: white;
+    border-radius: 15px;
+    animation: bar;
+    animation: 5s bar alternate;
+    
+    }
+
+.text {
+    color: darkorange;
+    margin: 5px;
+    letter-spacing: 5px;
+}
+
+ @keyframes bar {
+     0% {width: 0;}
+    50% {width: 25%;}
+    75% {width: 50%;}
+    85% {width: 75%;}
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="text">Progressing...</div>
+    <div class="bar">
+        <div class="filling"></div>
+    </div>
+    </div>
+</body>
+</html>
